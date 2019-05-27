@@ -30,6 +30,10 @@ we must attempt to solve this problem with a computation model
 		siteStatus[][] from 0 to N-1.
 	-Percolation2.java
 		-same Off-by-1 error as above.
+	-PercolationStats.java
+		-forgot to cast pThreshold to a double, so kept
+		on getting all 0's for mean, stddev, and 
+		lower/upper bounds on confidence interval.
 
 -To Do:
 	-fix small ineffciency known as backwashing.
