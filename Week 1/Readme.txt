@@ -30,4 +30,7 @@ we must attempt to solve this problem with a computation model
 		siteStatus[][] from 0 to N-1.
 	-Percolation2.java
 		-same Off-by-1 error as above.
+
+-To Do:
+	-fix small ineffciency known as backwashing.
  
